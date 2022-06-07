@@ -1,0 +1,180 @@
+/*police personnalisees*************************************************************************/
+
+@font-face {
+    font-family: 'Aristotelica Display DemiBold';
+    src: url("./Aristotelica Display DemiBold Trial.otf") format('opentype');
+    src: url('./aristotelica_display_demibold_trial-webfont.woff2') format('woff2'),
+         url('./aristotelica_display_demibold_trial-webfont.woff') format('woff');
+    font-weight: normal, bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aristotelica_small_capsRg';
+    src: url("./fonts/AristotelicaSmallCaps-Regular.ttf") format('truetype');
+    src: url('./fonts/aristotelicasmallcaps-regular-webfont.woff2') format('woff2'),
+         url('./fonts/aristotelicasmallcaps-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/***********************************************************/
+#depasse {
+   background-color: #DF8E91;
+   border-radius: 1em;
+   padding: -1em;
+}
+
+/*-------------------------volet de navigation----------------------------*/
+#openPic, #closePic {
+    width: 50px;
+    height: auto;
+ 
+    float: right;
+    padding-right: 20px;
+ 
+    padding-left: 10px;
+    margin-top: 10px;
+ }
+ 
+ #openPic {
+    position: fixed;
+    z-index: 2;
+ 
+    padding: 20px;
+ }
+ 
+ #closePic {
+    z-index: 2;
+ }
+ 
+ #navig {
+    width: 250px;
+    height: fit-content;
+    padding: 20px;
+ 
+    background: indianred;
+    border-radius: 2em 2em 0 0;
+    border: white 4px double;
+ 
+    color: white;
+    text-align: start;
+ 
+    position: fixed;
+    z-index: 3;
+
+    font-family: 'ModecoTrial-Regular', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+ }
+ 
+ .retour {
+   text-align: right;
+   -webkit-text-stroke: 1px white;
+   /*text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;*/
+ }
+ 
+ .retour a {
+    color: brown;
+    text-decoration: none;
+ }
+ 
+ .retour a:hover {
+    color: white;
+ }
+ 
+ #navig #indice {
+    margin-top: 30px;
+    margin-bottom: 40px;
+ }
+ 
+ #indice {
+    margin: 0 10px;
+ }
+
+ /*----------------------animation du volet-------------------------*/
+.volet {
+    bottom: -30em;
+    right : 2em;
+    transition: all 1s ease;
+ }
+ 
+ .voletOuvert {
+    bottom: 0px;
+    right: 2em;
+    transition: all 1s ease;
+ }
+
+ /*---------------------------*/
+ #depasse {
+     position: fixed;
+     bottom: 0;
+     right: 2em;
+     z-index: 1;
+
+     border-radius : 2em 2em 0 0;
+
+     width: 100px;
+     height: 100px;
+ }
+
+ /*---------------------*/
+
+ #navig h1 {
+    font-size: 2em;
+}
+
+#navig ul {
+    list-style: none;
+}
+
+#navig ul a {
+    font-size: 1em;
+    color: #ffd7d8;
+}
+
+#navig p {
+    font-size: 0.8em;
+
+    font-weight: bold;
+
+    margin: 0.4em auto;
+
+    color: #ffd7d8;
+}
+
+#navig p:last-of-type {
+    font-size: 1em;
+    font-variant: normal;
+
+    margin-top: 1em;
+}
+
+#navig ul a:hover {
+    color: brown;
+}
+
+.retour {
+    margin-left: 30px;
+    margin-top: 30px;
+ }
+ 
+ .retour a {
+    color: brown;
+    text-decoration: none;
+ }
+ 
+ .retour a:hover {
+    color: white;
+ }
+
+#plan_site {
+    flex: 2;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+}
+
+#liste_projets ul{
+    margin-left: 2em;
+}

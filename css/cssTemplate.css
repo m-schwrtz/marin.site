@@ -1,0 +1,32 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    text-justify: auto;
+    margin: 5%;
+}
+header {}
+
+h1 {}
+p {}
+pre {}
+a {}
+img {}
+figure {}
+figcaption {}
+ul {}
+ol {}
+table {}
+caption {}
+thead {}
+tfoot {}
+tbody {}
+
+footer {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+}

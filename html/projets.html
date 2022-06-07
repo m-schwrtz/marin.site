@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>marin.</title>
+        <meta charset="utf-8"/>
+        <link rel="shortcut icon" type="image/x-icon" href="../images/logo/logo.png" />
+        <link rel="stylesheet" href="../css/cssReset.css" />
+        <link rel="stylesheet" href="../css/css_indexPage.css" />
+        <link rel="stylesheet" href="../css/css_projets.css"/>
+        <link rel="stylesheet" href="../css/css_voletNav.css"/>
+    </head>
+
+
+    <body>
+        <script type="text/javascript" src="../js/volet.js">
+        </script>
+        <script type="text/javascript" src="../js/misc.js">
+        </script>
+
+
+        <div id="bloc_page">
+
+            <header>
+                <div id="titre_page">
+                    <img src="../images/logo/logo.png" id="logo" alt="m. (logo)">
+
+                    <h1>marine schwartz</h1>
+                </div>
+
+                <nav id="nav_sup">
+                    <ul>
+                        <li><a href="../index.html">marin.</a></li>
+                        <li><a href="./projets.html">projets</a></li>
+                        <li><a href="./cv.html">CV</a></li>
+                        <li><a href="https://www.linkedin.com/in/marine-schwartz-243174241/overlay/contact-info/" title="Mes contacts sur LinkedIn">contacts</a></li><!--<li><a href="./html/contacts.html">contacts</a></li>-->
+                    </ul>
+                </nav>
+            </header>
+
+            <div id="espace_haut">
+            </div>
+
+
+            <div id="depasse">
+                <input type="image" src="../images/pictogramme/open.png" onclick="ouverture()" title="Ouvrir l'index" class="ouvreIndex"
+                    id="openPic" alt="Cliquer pour ouvrir l'index" />
+            </div>
+
+            <div id="navig" class="volet">
+
+                <input type="image" onclick="fermeture()" src="../images/pictogramme/close.png" title="Cacher l'index" class="fermeIndex"
+                    id="closePic" alt="Cliquer pour fermer l'index" />
+                
+                    <div id="plan_site">
+                        <ul>
+                            <li><a href="../index.html">> marin.</a></li>
+                            <li><a href="./projets.html">> projets</a></li>
+                            <li><a href="./cv.html">> CV</a></li>
+                            <li><a href="https://www.linkedin.com/in/marine-schwartz-243174241/overlay/contact-info/" title="Mes contacts sur LinkedIn">> contacts</a></li><!--<li><a href="./html/contacts.html">> contacts</a></li>-->
+                        </ul>
+                    </div>
+
+                    <div id="liste_projets">
+                        <p>
+                            Liste de projets :
+                        </p>
+                        <ul>
+                            <li><a href="#portfolio" title="portolio gamifi&eacute;">Portolio "gamifi&eacute;"</a></li>
+                            <li><a href="#harpi" title="projet harpi">Harpi</a></li>
+                            <li><a href="#cosplay_run" title="cosplay run">Cosplay Run</a></li>
+                            <li><a href="#gregoire_marcel" title="gr&eacute;goire et marcel">Gr&eacute;goire et Marcel</a></li>
+                            <li><a href="#colors_lab" title="colors lab">Colors Lab</a></li>
+                            <li><a href="#article_sg" title="article de jeu">Article de jeu</a></li>
+                            <li><a href="#jam_maisons" title="noctitia">Noctitia</a></li>
+                            <li><a href="#spleen" title="SPLEEN">SPLEEN</a></li>
+                            <li><a href="#nourriture_rapide" title="nourriture rapide">Nourriture Rapide</a></li>
+                            <li><a href="#cyber_drunk" title="cyber drunk">Cyber Drunk</a></li>
+                        </ul>
+                    </div>
+
+                    <p class="retour">
+                        <a href="#titre_page" title="haut de page">
+                            Haut de page
+                        </a>
+                    </p>
+            </div>
+
+            <section id="intitule">
+                <h1>
+                    Projets
+                </h1>
+            </section>
+            
+            <section id="choix_projet">
+                
+                <div class="thumbnail carre" id="i_portfolio">
+                    <div class="cache thumbnail_text carre" onclick="goToLink('#portfolio')">
+                        <div class="tn_text">
+                            <h1>Portfolio Gamifi&eacute;</h1>
+                            <p>
+                                Programmation Unity
+                            </p>
+                            <p>
+                                2022
+                            </p>
+                        </div>
+                    </div>
+                    <img src="../images/projets/mignatures/portfolio.png" alt="portfolio gamifi&eacute;" class="mignature carre">
+                </div>
+
+                <div class="thumbnail carre" id="i_harpi">
+                    <div class="cache thumbnail_text carre" onclick="goToLink('#harpi')">
+                        <div class="tn_text">
+                            <h1>projet Harpi</h1>
+                            <p>
+                                &lt; projet en cours &gt;
+                            </p>
+                            <p>
+                                2021
+                            </p>
+                        </div>
+                    </div>
+                    <img src="../images/projets/mignatures/harpi.png" alt="projet harpi" class="mignature carre">
+                </div>
+
+                <div class="thumbnail carre" id="i_cosplay_run">
+                    <div class="cache thumbnail_text carre" onclick="goToLink('#cosplay_run')">
+                        <div class="tn_text">
+                            <h1>Cosplay Run</h1>
+                            <p>
+                                Programmation Unity
+                            </p>
+                            <p>
+                                Travail collaboratif
+                            </p>
+                            <p>
+                                2021
+                            </p>
+                        </div>
+                    </div>
+                    <img src="../images/projets/mignatures/cosplay_run.png" alt="cosplay run" class="mignature carre">
+                </div>
+
+                <div class="thumbnail carre" id="i_gregoire_marcel">
+                    <div class="cache thumbnail_text carre" onclick="goToLink('#gregoire_marcel')">
+                        <div class="tn_text">
+                            <h1>Gr&eacute;goire et Marcel</h1>
+                            <p>
+                                Graphismes
+                            </p>
+                            <p>
+                                Projet de Game Jam
+                            </p>
+                            <p>
+                                2021
+                            </p>
+                        </div>
+                    </div>
+                    <img src="../images/projets/mignatures/gregoire_marcel.png" alt="gregoire et marcel" class="mignature carre">
+                </div>
+
+                <div class="thumbnail carre" id="i_colors_lab">
+                    <div class="cache thumbnail_text carre" onclick="goToLink('#colors_lab')">
+                        <div class="tn_text">
+                            <h1>Colors Lab</h1>
+                            <p>
+                                Prototype de Serious Game
+                            </p>
+                            <p>
+                                Programmation et graphismes
+                            </p>
+                            <p>
+                                2021
+                            </p>
+                        </div>
+                    </div>
+                    <img src="../images/projets/mignatures/color_labs.png" alt="colors lab" class="mignature carre">
+                </div>
+
+                <div class="thumbnail carre" id="i_article_sg">
+                    <div class="cache thumbnail_text carre" onclick="goToLink('#article_sg')">
+                        <div class="tn_text">
+                            <h1>Article de jeu</h1>
+                            <p>
+                                R&eacute;daction
+                            </p>
+                            <p>
+                                2021
+                            </p>
+                        </div>
+                    </div>
+                    <img src="../images/projets/mignatures/article_sg.png" alt="article de jeu" class="mignature carre">
+                </div>
+
+                <div class="thumbnail carre" id="i_jam_maisons">
+                    <div class="cache thumbnail_text carre" onclick="goToLink('#jam_maisons')">
+                        <div class="tn_text">
+                            <h1>Noctitia</h1>
+                            <p>
+                                Graphismes
+                            </p>
+                            <p>
+                                Projet de Game Jam
+                            </p>
+                            <p>
+                                2021
+                            </p>
+                        </div>
+                    </div>
+                    <img src="../images/projets/mignatures/jeu_maisons.png" alt="noctitia" class="mignature carre">
+                </div>
+                
+                <div class="thumbnail carre" id="i_spleen">
+                    <div class="cache thumbnail_text carre" onclick="goToLink('#spleen')">
+                        <div class="tn_text">
+                            <h1>SPLEEN</h1>
+                            <p>
+                                Game Concept
+                            </p>
+                            <p>
+                                2021
+                            </p>
+                        </div>
+                    </div>
+                    <img src="../images/projets/mignatures/spleen.png" alt="spleen" class="mignature carre">
+                </div>
+
+                <div class="thumbnail carre" id="i_nourriture_rapide">
+                    <div class="cache thumbnail_text carre" onclick="goToLink('#nourriture_rapide')">
+                        <div class="tn_text">
+                            <h1>Nourriture Rapide</h1>
+                            <p>
+                                Graphismes
+                            </p>
+                            <p>
+                                Projet de Game Jam
+                            </p>
+                            <p>
+                                2021
+                            </p>
+                        </div>
+                    </div>
+                    <img src="../images/projets/mignatures/nourriture_rapide.png" alt="nourriture rapide" class="mignature carre">
+                </div>
+
+                <div class="thumbnail carre" id="i_cyber_drunk">
+                    <div class="cache thumbnail_text carre" onclick="goToLink('#cyber_drunk')">
+                        <div class="tn_text">
+                            <h1>Cyber Drunk</h1>
+                            <p>
+                                Programmation
+                            </p>
+                            <p>
+                                Projet de Game Jam
+                            </p>
+                            <p>
+                                2020
+                            </p>
+                        </div>
+                    </div>
+                    <img src="../images/projets/mignatures/cyber_drunk.png" alt="cyber drunk" class="mignature carre">
+                </div>
+
+            </section>
+
+
+            <section id="projets">
+                <article class="projet" id="portfolio">
+                    <h1>Portfolio Gamifi&eacute; - 2022</h1>
+                    <div>
+                        <p>
+                            La gamification se d&eacute;finit par l'application d'&eacute;l&eacute;ments propres au jeu &agrave; un domaine fondamentalement non ludique.
+                        </p>
+                        <p>
+                            Mon domaine d'&eacute;tude &eacute;tant le jeu vid&eacute;o, il semble tout &agrave; fait pertinent d'&eacute;tablir un portfolio gamifi&eacute;.
+                        </p>
+                        <p>
+                            J'ai pour cela d&eacute;cid&eacute; de me servir du framework Unity, avec lequel j'appr&eacute;cie particuli&egrave;rement travailler, et ce fut une bonne opportunit&eacute; pour aborder de nouvelles formes de jouabilit&eacute;.
+                        </p>
+                        <p>
+                            Se jouant sur une page internet normale, je ne voulais pas perturber la navigation de l'utilisateur : tout le projet se "joue" &agrave; la souris, avec comme seule entr&eacute;e attendue : le click gauche. 
+                            Il m'apparaissait important que les interactions soient le plus simples et intuitives possibles, avec un nombre limit&eacute;s d'indications.
+                        </p>
+                        <p>
+                            Le principe est simple : avec la souris, on guide un petit personnage au travers de la sc&egrave;ne, o&ugrave; sont dispers&eacute;s les dif&eacute;rents projets du portfolio ; il s'agit des m&ecirc;mes projets pr&eacute;sent&eacute;s sur cette page-ci.
+                        </p>
+                        <p>
+                            Cliquer <a href="" title="colors lab sur itch.io">ici</a> pour acc&eacute;der &agrave; la page.
+                        </p>
+                        <p>
+                            Il s'agit d'un projet qui se veut d'&ecirc;tre agr&eacute;ment&eacute; dans le temps ; si tous les projets ne sont pas encore impl&eacute;ment&eacute;s ou que la page n'est pas disponible, cela ne saura tarder.
+                        </p>
+                    </div>
+                    <div class="projet_img">
+                        <a href="../images/projets/portolio/ss1.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/portolio/ss1.png" alt="le personnage contr&ocirc;lable"></a>
+                    </div>
+                </article>
+
+                <article class="projet" id="harpi">
+                    <h1>Harpi - 2021</h1>
+                    <div>
+                        <p>
+                           Harpi est un projet de jeu vid&eacute;o en cours de conception, avec deux objectifs ; le premier li&eacute; &agrave; la conception, et le deuxi&egrave;me au concept du jeu en soit. 
+                        </p>
+                        <p>
+                            Pour le premier point, je souhaite en effet m'occuper de tous les &eacute;l&eacute;ments entrant dans l'&eacute;laboration du jeu : concept, sc&eacute;nario, design de niveaux, programmation sur Unity, graphismes, audio. 
+                            Le projet est actuellement en pause, car je souhaite encore &eacute;largir mes connaissances concernant mon support de d&eacute;veloppement, Unity.
+                        </p>
+                        <p>
+                            Le but final &eacute;tant, d'un c&ocirc;t&eacute;, la satisaction d'avoir cr&eacute;&eacute; un jeu enti&egrave;rement moi-m&ecirc;me, mais aussi de me rendre compte du travail entrant dans chaque &eacute;tape de conception, et les diff&eacute;rentes probl&eacute;matiques li&eacute;es &agrave; chacune d'entre elle.
+                        </p>
+                        <p>
+                            Concernant le second point, le concept : Harpi sera un petit jeu, finissable en moins d'une heure, mais avec la volont&eacute; d'offrir une exp&eacute;rience m&eacute;morable au joueur, de part ses graphismes, son ambiance, et son sc&eacute;nario.
+                        </p>
+                        <p>
+                            On y suivrait une jeune harpie, cr&eacute;ature mystique, depuis sa naissance et au fil de sa croissance.
+                        </p>
+                        <p>
+                            De plus amples informations seront donn&eacute;es lorsque le game concept aura &eacute;t&eacute; am&eacute;lior&eacute; et agr&eacute;ment&eacute;. Cependant, il s'agit d'un projet qui me tient &agrave; coeur, d'o&ugrave; la volont&eacute; de l'aborder sur cette page.
+                        </p>
+                    </div>
+                    <div class="projet_img">
+                        <a href="../images/projets/harpi/charadesign3.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/harpi/charadesign3.png" alt="recherche de charadesign"></a>
+                        <a href="../images/projets/harpi/crouch.gif" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/harpi/crouch.gif" alt="sprite accroupi" class="gif"></a>                        
+                        <a href="../images/projets/harpi/run2.gif" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/harpi/run2.gif" alt="sprite course" class="gif"></a>
+                        <a href="../images/projets/harpi/push.gif" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/harpi/push.gif" alt="sprite pousser" class="gif"></a>
+                    </div>
+                </article>
+
+                <article class="projet" id="cosplay_run">
+                    <h1>Cosplay Run - 2021</h1>
+                    <div>
+                        <p>
+                            Cosplay Run fut un projet r&eacute;alis&eacute; dans le cadre des &eacute;tudes, o&ugrave; nous avions &eacute;t&eacute; encourag&eacute;s &agrave; cr&eacute;er un "party game" pour la console Switch de Nintendo.
+                        </p>
+                        <p>
+                            Si le r&eacute;sultat n'est finalement qu'une &eacute;bauche, ce travail fut n&eacute;anmoins enrichissant pour plusieurs raisons. D'abord, ce fut ma premi&egrave;re exp&eacute;rience avec le framework Unity, qui est aujourd'hui un outil que j'appr&eacute;cie particuli&egrave;rement. 
+                            Ensuite, il s'agissait d'un travail &agrave; r&eacute;aliser en groupe, avec notamment plusieurs d&eacute;veloppeurs, ce qui impliquait l'utilisation d'outil de contr&ocirc;le de code source pour la fusion de nos diff&eacute;rents scripts, ainsi que la n&eacute;cessit&eacute; d'une bonne communication au sein de l'&eacute;quipe. 
+                            Enfin, nous avions pu d&eacute;couvrir comment nous servir du kit de d&eacute;veloppement de la Switch, tout le processus que cela impliquait pour pouvoir l'utiliser et comment l'impl&eacute;menter dans Unity.
+                        </p>
+                        <p>
+                            Concernant mon r&ocirc;le dans le projet, j'ai pu m'occuper des contr&ocirc;les du personnage (d&eacute;placements et cam&eacute;ra), son animation et celle des clients, de la mise en place et l'animation du chronom&egrave;tre, ainsi que de l'&eacute;cran-titre.
+                        </p>
+                        <p>
+                            En soit, Cosplay Run est un simple mini-jeu, o&ugrave; le joueur incarne un vendeur dans un magasin de costumes. Diff&eacute;rents clients viennent &agrave; lui avec diverses demandes, et c'est alors &agrave; lui de les exaucer en cherchants les objets dans son magasin ; le tout, dans le temps imparti.
+                        </p>
+                    </div>
+                    <div class="projet_img">
+                        <a href="../images/projets/cosplay_run/screenshot1.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/cosplay_run/screenshot1.png" alt="en attente de clients"></a>
+                        <a href="../images/projets/cosplay_run/screenshot3.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/cosplay_run/screenshot3.png" alt="prendre une commande"></a>
+                    </div>
+                </article>
+
+                <article class="projet" id="gregoire_marcel">
+                    <h1>Gr&eacute;goire et Marcel - 2021</h1>
+                    <div>
+                        <p>
+                            Gr&eacute;goire et Marcel est un mini-jeu r&eacute;alis&eacute; dans le cadre de la TriJam-130, avec une &eacute;quipe de 3 personnes ; mon r&ocirc;le &eacute;tait alors celui de graphiste.
+                        </p>
+                        <p>
+                            La TriJam a la particularit&eacute; que chaque &eacute;tape de la conception ne doit prendre que 3 heures au maximum. Cependant, l'&eacute;tape de r&eacute;flection et d'&eacute;laboration du concept peut &ecirc;tre faite au pr&eacute;alable, sans contraintes de temps.
+                        </p>
+                        <p>
+                            Le th&egrave;me cette fois fut "Big Body" (grand corps). L'id&eacute;e m'&eacute;tait venue d'un petit jeu, o&ugrave; l'on bougerait un personnage en bas de l'&eacute;cran et le faire attrapper de la nourriture qui tomberait du ciel, ce qui le ferait grandir. 
+                            Pour ajouter une touche d'humour, un autre personnage proiterait de ce corps grandissant pour rebondir, ce qui ajouterait la difficult&eacute; de devoir essayer de le rattrapper &agrave; chaque fois. 
+                            Cette id&eacute;e plut &agrave; mes coll&egrave;gues, qui s'&eacute;taient ensuite occup&eacute;s de l'adapter.
+                        </p>
+                        <p>
+                            Le jeu peut &ecirc;tre jou&eacute; depuis <a href="https://marinpoux.itch.io/gregoire-marcel" title="gr&eacute;goire et marcel sur itch.io">sa page itch.io</a>. Il avait d'ailleurs remport&eacute; la premi&egrave;re place de la TriJam-130.
+                        </p>
+                    </div>
+                    <div class="projet_img">
+                        <a href="../images/projets/gregoire_marcel/ss1.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/gregoire_marcel/ss1.png" alt="&eacute;cran titre"></a>
+                        <a href="../images/projets/gregoire_marcel/ss2.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/gregoire_marcel/ss2.png" alt="&eacute;cran de jeu"></a>                                   
+                    </div>
+                </article>
+
+                <article class="projet" id="colors_lab">
+                    <h1>Colors Lab - 2021</h1>
+                    <a href="../images/projets/color_labs/ss.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image">
+                        <img src="../images/projets/color_labs/ss.png" alt="ecran titre"style="float: right; padding: 2em 1em;">
+                    </a>
+                    <div>
+                        <p>
+                            Colors Lab est un prototype de serious game (jeu s&eacute;rieux), r&eacute;alis&eacute; dans le cadre des &eacute;tudes pour le cours de game design, et en colaboration avec une autre &eacute;tudiante.
+                        </p>
+                        <p>
+                            Toutes deux &eacute;tant int&eacute;ress&eacute;es par le dessin et l'art en g&eacute;n&eacute;ral, nous avions d&eacute;cid&eacute; d'axer notre jeu s&eacute;rieux sur ce domaine, notamment sur la th&eacute;orie des couleurs. 
+                            En efft, il se trouve que m&ecirc;me pour des artistes av&eacute;r&eacute;s, ces concepts peuvent pr&ecirc;ter &agrave; confusion, que ce soit en terme de terminologie, mais aussi de manipulation, les couleurs ne s'utilisant pas de la m&ecirc;me mani&egrave;re par exemple en production digitale ou avec des m&eacute;diums traditionnels. 
+                            M&ecirc;me pour un d&eacute;veloppeur, il peut s'agir l&agrave; de notions int&eacute;ressantes, puisque nous sommes souvent amen&eacute;s &agrave; utiliser le syst&egrave;me RVB, qui m&eacute;lange les lumi&egrave;res rouge, verte et bleue.
+                        </p>
+                        <p>
+                            Le concept s'est finalement orient&eacute; sur une s&eacute;rie de mini-jeux &agrave; temps limit&eacute;, que l'on pourrait d&eacute;bloquer et enchaîner ; le but &eacute;tant que la progression ne soit possible que si les pr&eacute;c&eacute;dentes connaissances sont bien acquises. 
+                            A terme, le produit final aurait prit la forme d'une application mobile, afin de pouvoir tester ses connaissances n'importe o&ugrave; et n'importe quand ; la dur&eacute;e tr&egrave;s courtes des mini-jeux permettant une grande flexibilit&eacute; &agrave; ce niveau-l&agrave;.
+                        </p>
+                        <p>
+                            Un jeu s&eacute;rieux devrait, selon moi, contenir un minimum d'aspects ludiques. En ce qui me concerne, je souhaitais travailler ce point en mettant en avant l'apprentissage par l'exp&eacute;rimentation et la pratique.
+                        </p>
+                        <p>
+                            Le prototype peut &ecirc;tre jou&eacute; depuis <a href="https://marinpoux.itch.io/color-lab" title="colors lab sur itch.io">sa page itch.io</a>. Ci-dessous, les mini-jeux de ma conception.
+                        </p>
+                    </div>
+                    <div class="projet_img">
+                        <a href="../images/projets/color_labs/ss1.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/color_labs/ss1.png" alt="mini-jeu 2"></a>
+                        <a href="../images/projets/color_labs/ss2.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/color_labs/ss2.png" alt="mini-jeu 4"></a>
+                        <a href="../images/projets/color_labs/ss3.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/color_labs/ss3.png" alt="mini-jeu 5"></a>
+                    </div>
+                </article>
+
+                <article class="projet" id="article_sg">
+                    <h1>Article de jeu - 2021</h1>
+                    <div>
+                        <p>
+                            Pour ce travail, r&eacute;alis&eacute; dans le cadre des cours de game design, il a &eacute;t&eacute; question d'&eacute;crire un article sur un jeu vid&eacute;o.
+                        </p>
+                        <p>
+                            En plus que de travailler notre r&eacute;daction et mise-en-page, le jeu choisi devait pr&eacute;senter un potentiel de jeu s&eacute;rieux, ce qu'il allait alors pouvoir justiier. 
+                        </p>
+                    </div>
+                    <div class="projet_img">
+                        <a href="../images/projets/article_sg/article_marine-schwartz-1.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/article_sg/article_marine-schwartz-1.png" alt="page 1"></a>
+                        <a href="../images/projets/article_sg/article_marine-schwartz-2.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/article_sg/article_marine-schwartz-2.png" alt="page 2"></a>
+                        <a href="../images/projets/article_sg/article_marine-schwartz-3.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/article_sg/article_marine-schwartz-3.png" alt="page 3"></a>
+                        <a href="../images/projets/article_sg/article_marine-schwartz-4.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/article_sg/article_marine-schwartz-4.png" alt="page 4"></a>
+                        <a href="../images/projets/article_sg/article_marine-schwartz-5.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/article_sg/article_marine-schwartz-5.png" alt="page 5"></a>
+                        <a href="../images/projets/article_sg/article_marine-schwartz-6.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/article_sg/article_marine-schwartz-6.png" alt="page 6"></a>
+                    </div>
+                </article>
+
+                <article class="projet" id="jam_maisons">
+                    <h1>Noctitia - 2021</h1>
+                    <div>
+                        <p>
+                            Noctitia devait &ecirc;tre un petit jeu r&eacute;alis&eacute; dans le cadre d'une jam d'un mois, organis&eacute;e par Ludus Acad&eacute;mie pour ses &eacute;tudiants ; j'avais &eacute;t&eacute; recrut&eacute;e comme graphiste par une &eacute;quipe de d&eacute;veloppeurs o&ugrave; ce r&ocirc;le manquait, et j'ai alors pu participer &agrave; l'&eacute;laboration du game concept.
+                        </p>
+                        <p>
+                            Les graphismes ont &eacute;t&eacute; livr&eacute;s comme convenu, malheureusement tous les d&eacute;veloppeurs n'ont pas pu investir le temps n&eacute;cessaire dans le projet, qui est du coup rest&eacute; &agrave; l'&eacute;tat d'&eacute;bauche.
+                        </p>
+                        <p>
+                            Les entr&eacute;es pour la jam devaient respecter les conditions suivantes : inclure au moins 5 tableaux diff&eacute;rents et reconnaissables, et inclure trois animaux (une chouette, un renard et une tortue). D'autres crit&egrave;res &eacute;taient facultatis, mais rapportaient des points ; nous pouvions notamment proposer deux jouabilit&eacute;s diff&eacute;rentes.
+                        </p>
+                        <p>
+                            Pour r&eacute;pondre au sujet, nous voulions proposer 4 niveaux, alternant 2 jouabilit&eacute;s : la premi&egrave;re imitant le principe du jeu "Flappy Bird", et la seconde, une bille sur un plateau que l'on inclinerait pour la guider dans un labyrinthe. 
+                            Chaque niveau est alors bas&eacute; sur un tableau diff&eacute;rent ; le cinqui&egrave;me niveau est r&eacute;f&eacute;renc&eacute; sur l'&eacute;cran de Game Over, et un sixi&egrave;me tableau serait incarn&eacute; par le narrateur. 
+                        </p>
+                        <p>
+                            M&ecirc;me si le projet n'a pas abouti, je reste fi&egrave;re de ma production, notamment en consid&eacute;rant les difficult&eacute;s pos&eacute;es par le sujet et le concept choisi : imiter des styles tr&egrave;s particuliers pour cr&eacute;er des d&eacute;cors ; adapter ces styles pour animer des personnages ; cr&eacute;er des d&eacute;cors qui bouclent.
+                        </p>
+                        <p>
+                            Pour &ecirc;tre honn&ecirc;te, j'esp&egrave;re pouvoir un jour r&eacute;utiliser ces graphismes.
+                        </p>
+                    </div>
+                    <div class="projet_img">
+                        <a href="../images/projets/jeu_maisons/estampe.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/jeu_maisons/estampe.png" alt="d&eacute;cors : estempe japonaise"></a>
+                        <a href="../images/projets/jeu_maisons/picasso.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/jeu_maisons/picasso.png" alt="d&eacute;cors : paysage picasso"></a>
+                        <a href="../images/projets/jeu_maisons/gameover.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/jeu_maisons/gameover.png" alt="&eacute;cran de game over"></a>
+                        <a href="../images/projets/jeu_maisons/Sans titre.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/jeu_maisons/Sans titre.png" alt="niveau de l'estempe"></a>
+                        <a href="../images/projets/jeu_maisons/estampe-couleur - tortue.gif" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/jeu_maisons/estampe-couleur - tortue.gif" alt="tortue style estempe"></a>
+                        <a href="../images/projets/jeu_maisons/estampe_couleur.gif" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/jeu_maisons/estampe_couleur.gif" alt="renard style estempe"></a>
+                        <a href="../images/projets/jeu_maisons/vol_estampe_couleur.gif" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/jeu_maisons/vol_estampe_couleur.gif" alt="chouette style estempe"></a>
+                        <a href="../images/projets/jeu_maisons/picasso-couleur-tortue.gif" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/jeu_maisons/picasso-couleur-tortue.gif" alt="tortue style picasso"></a>
+                        <a href="../images/projets/jeu_maisons/vol_picasso.gif" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/jeu_maisons/vol_picasso.gif" alt="chouette style picasso"></a>
+                        <a href="../images/projets/jeu_maisons/picasso_couleur.gif" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/jeu_maisons/picasso_couleur.gif" alt="renard style picasso"></a>
+                    </div>
+                </article>
+
+                <article class="projet" id="spleen">
+                    <h1>SPLEEN - 2021</h1>
+                    <div>
+                        <p>
+                            Le game concept pour SPLEEN a &eacute;t&eacute; r&eacute;alis&eacute; dans le cadre des mes cours de game design ; le but &eacute;tait de r&eacute;aliser un ten-pager, qui se veut &ecirc;tre un document d&eacute;taill&eacute; dont le but est de dresser une vision globale du projet en une dizaine de pages.
+                        </p>
+                        <p>
+                            Je ne compte pas concr&eacute;tiser le jeu d&eacute;crit dans ce document. Cependant, ce travail de r&eacute;daction fut un exercice int&eacute;ressant et enrichissant, et le concept d&eacute;crit pourrait potentiellemnt &ecirc;tre adapt&eacute; pour un utur projet.
+                        </p>
+                    </div>
+                    <div class="projet_img">
+                        <a href="../images/projets/spleen/SPLEEN-01.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-01.png" alt="page 0"></a>
+                        <a href="../images/projets/spleen/SPLEEN-02.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-02.png" alt="page 1"></a>
+                        <a href="../images/projets/spleen/SPLEEN-03.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-03.png" alt="page 2"></a>
+                        <a href="../images/projets/spleen/SPLEEN-04.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-04.png" alt="page 3"></a>
+                        <a href="../images/projets/spleen/SPLEEN-05.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-05.png" alt="page 4"></a>
+                        <a href="../images/projets/spleen/SPLEEN-06.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-06.png" alt="page 5"></a>
+                        <a href="../images/projets/spleen/SPLEEN-07.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-07.png" alt="page 6"></a>
+                        <a href="../images/projets/spleen/SPLEEN-08.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-08.png" alt="page 7"></a>
+                        <a href="../images/projets/spleen/SPLEEN-09.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-09.png" alt="page 8"></a>
+                        <a href="../images/projets/spleen/SPLEEN-10.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-10.png" alt="page 9"></a>
+                        <a href="../images/projets/spleen/SPLEEN-10.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-11.png" alt="page 10"></a>
+                        <a href="../images/projets/spleen/SPLEEN-12.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-12.png" alt="page 11"></a>
+                        <a href="../images/projets/spleen/SPLEEN-13.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-13.png" alt="page 12"></a>
+                        <a href="../images/projets/spleen/SPLEEN-14.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-14.png" alt="page 13"></a>
+                        <a href="../images/projets/spleen/SPLEEN-15.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-15.png" alt="page 14"></a>
+                        <a href="../images/projets/spleen/SPLEEN-16.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-16.png" alt="page 15"></a>
+                        <a href="../images/projets/spleen/SPLEEN-17.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-17.png" alt="page 16"></a>
+                        <a href="../images/projets/spleen/SPLEEN-18.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/spleen/SPLEEN-18.png" alt="page 17"></a>
+                    </div>
+                </article>
+
+                <article class="projet" id="nourriture_rapide">
+                    <h1>Nourriture Rapide - 2021</h1>
+                    <div>
+                        <p>
+                            Nourriture Rapide est un petit jeu r&eacute;alis&eacute; sur 48 heures dans le cadre de la "McGame Jam 2021", avec une &eacute;quipe de 3 personnes ; mon r&ocirc;le &eacute;tait alors celui de graphiste.
+                        </p>
+                        <p>
+                            Le th&egrave;me &eacute;tait "Unintended Consequences", ce que nous avions mal traduit par "cons&eacute;quences inattendues", &agrave; la place de "cons&eacute;quences fortuites" ; pourtant similaires, la nuance &eacute;tait suffisante pour nous mener vers un hors-sujet.
+                        </p>
+                        <p>
+                            Ce fut cependant un exercice tr&egrave;s int&eacute;ressant, le temps limit&eacute; offrant une exp&eacute;rience de travail tr&egrave;s particuli&egrave;re et poussant &agrave; adapter sa prise de d&eacute;cision et &agrave; ajuster ses priorit&eacute;s. 
+                            Comme tout travail collaboratif, il s'agit aussi d'un bon exercice de communication, surtout avec la pression ajout&eacute;e.
+                        </p>
+                        <p>
+                            Le concept &eacute;tait de mettre en sc&egrave;ne un cuisinier français, dont la cuisine est prise d'assaut par des l&eacute;gumes-tueurs. En se servant de diff&eacute;rents objets, il devra alors d&eacute;fendre son restaurant.
+                        </p>
+                        <p>
+                            Esth&eacute;tiquement, le game designer avait envisag&eacute; un style en noir et blanc / nuances de gris, dans lequel j'avais beaucoup aim&eacute; travailler. C'est aussi toujours amusant de dessiner des monstres.
+                        </p>
+                        <p>
+                            Le jeu est accessible depuis <a href="https://jeffrey-z.itch.io/nourriture-rapide" title="nourriture rapide sur itch.io">sa page itch.io</a>.
+                        </p>
+                    </div>
+                    <div class="projet_img">
+                        <a href="../images/projets/nourriture_rapide/cuisto1.gif" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/nourriture_rapide/cuisto1.gif" alt="sprite du cuisinier"></a>
+                        <a href="../images/projets/nourriture_rapide/cuisto2.gif" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/nourriture_rapide/cuisto2.gif" alt="sprite du cuisinier mort"></a>
+                        <a href="../images/projets/nourriture_rapide/tilemapNew.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/nourriture_rapide/tilemapNew.png" alt="tilemap"></a>
+                        <a href="../images/projets/nourriture_rapide/ss1.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/nourriture_rapide/ss1.png" alt="ecran de jeu"></a>
+                    </div>
+                </article>
+
+                <article class="projet" id="cyber_drunk">
+                    <h1>Cyber Drunk - 2020</h1>
+                    <div>
+                        <p>
+                            Cyber Drunk est un petit jeu r&eacute;alis&eacute; sous 48 heures dans le cadre de la "Mix And Game Jam 2020", avec une &eacute;quipe de 3 personnes ; mon r&ocirc;le &eacute;tait alors celui de programmeur.
+                        </p>
+                        <p>
+                            J'&eacute;tais &agrave; ce moment au d&eacute;but de ma premi&egrave;re ann&eacute;e d'&eacute;tudiante en programmation et d&eacute;veloppement de jeu ; c'est pourquoi, avec mes connaissances limit&eacute;es, j'avais choisi de travailler avec le framework Construct2, qui se trouve &ecirc;tre tr&egrave;s accessible et acile d'utilisation. 
+                            Avec Construct, il n'est pas n&eacute;cessaire d'&eacute;crire du code ; cependant, cet outil permet de s'initier &agrave; la logique algorithmique, ainsi que d'obtenir rapidement des r&eacute;sultats fonctionnels et visuels.
+                        </p>
+                        <p>
+                            Le th&egrave;me de cette game jam &eacute;tait "mixing genres", c'est-&agrave;-dire, m&eacute;langer les genres. Notre choix s'est finalement port&eacute; sur un jeu musical et d'infiltration.
+                        </p>
+                        <p>
+                            Le concept &eacute;tait le suivant : le personnage jou&eacute; s'est infiltr&eacute; dans un nightclub, et doit ramasser des bouteilles sans &ecirc;tre d&eacute;tect&eacute; par les vigiles. 
+                            Pour passer inapperçu, il pourra se glisser dans la foule dansante, ou proiter des moments o&ugrave; la musique est plus forte. Plus il sera charg&eacute;, plus il fera de bruit en se d&eacute;plaçant, et plus rapidement il sera d&eacute;tect&eacute; ; 
+                            d'o&ugrave; l'importance de la musique, et l'aspect "jeu musical".
+                        </p>
+                        <p>
+                            Le jeu peut &ecirc;tre jou&eacute; sur <a href="https://gaetan-piou.itch.io/cyberdrunk" title="Cyber Drunk sur itch.io">sa page itch.io</a>.
+                        </p>
+                    </div>
+                    <div class="projet_img">
+                        <a href="../images/projets/cyber_drunk/ss1.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/cyber_drunk/ss1.png" alt=""></a>
+                        <a href="../images/projets/cyber_drunk/ss3.png" target="_blank" rel="noreferrer noopener" title="agrandir l'image"><img src="../images/projets/cyber_drunk/ss3.png" alt=""></a>
+                    </div>
+                </article>
+
+
+            </section>
+
+
+            <footer>      
+                <div id="separateur_bas"></div>
+
+                <div id="bloc_footer">
+                    <div id="titre_page_bas">
+                        <h1>marine schwartz</h1>
+                    </div>
+    
+                    <div id="plan_site">
+                        <ul>
+                            <li><a href="../index.html">> marin.</a></li>
+                            <li><a href="./projets.html">> projets</a></li>
+                            <li><a href="./cv.html">> CV</a></li>
+                            <li><a href="https://www.linkedin.com/in/marine-schwartz-243174241/overlay/contact-info/" title="Mes contacts sur LinkedIn">> contacts</a></li><!--<li><a href="./html/contacts.html">> contacts</a></li>-->
+                        </ul>
+                    </div>
+    
+                    <div id="copyright">
+                        <p>
+                            font: Odin Rounded &copy;Anonymous foundry
+                        </p>
+                        <p>
+                            font: Modeco &copy; ekobimantara.com
+                        </p>
+                        <p>
+                            font: Aristotelica Family by Zetafonts http://www.zetafonts.com/collection/1077
+                        </p>
+                        <p>
+                            &copy; Marine Schwartz 2021 - 2022
+                        </p>
+                    </div>
+
+
+                    <div id="liens_externes">
+                        <a href="https://marinpoux.itch.io/" title="mon compte itch.io" target="_blank" rel="noreferrer noopener">
+                            <img src="../images/logo/itchio-logo-white.png" alt="itch.io" class="icone">
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/marine-schwartz-243174241/" title="mon linkedin" target=_blank rel="noreferrer noopener">
+                            <img src="../images/logo/linked-in-logo-white.png" alt="linkedin" class="icone">
+                        </a>
+
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+    </body>
+
+</html>

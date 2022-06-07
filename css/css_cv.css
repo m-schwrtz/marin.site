@@ -1,0 +1,16 @@
+#cv {
+    align-content: center;
+    justify-content: center;
+
+    display: flex;
+}
+
+#cv img {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    align-self: center;
+    padding: auto;
+
+    padding: 0 5%;
+}

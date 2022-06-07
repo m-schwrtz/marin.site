@@ -1,0 +1,259 @@
+/*police personnalisees*************************************************************************/
+
+@font-face {
+    font-family: 'odin_roundedbold';
+    src: url("./fonts/Odin Rounded - Bold.otf") format('opentype');
+    src: url('./fonts/odin_rounded_-_bold-webfont.woff2') format('woff2'),
+         url('./fonts/odin_rounded_-_bold-webfont.woff') format('woff');
+    font-weight: normal, bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aristotelica_small_capsRg';
+    src: url("./fonts/AristotelicaSmallCaps-Regular.ttf") format('truetype');
+    src: url('./fonts/aristotelicasmallcaps-regular-webfont.woff2') format('woff2'),
+         url('./fonts/aristotelicasmallcaps-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ModecoTrial-Regular';
+    src: url("./fonts/ModecoTrial-Regular.ttf") format('truetype');
+    src: url('./fonts/ModecoTrial-Regular.woff2') format('woff2'),
+         url('./fonts/ModecoTrial-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ModecoTrial-Bold';
+    src: url("./fonts/ModecoTrial-Bold.ttf") format('truetype');
+    src: url('./fonts/ModecoTrial-Bold.woff2') format('woff2'),
+         url('./fonts/ModecoTrial-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*general page**********************************************************************************/
+
+body {
+    background-color: #DF8E91;
+
+    
+    
+}
+
+#bloc_page {
+    background-color: #ffd7d8;
+
+    width: 70em;
+    margin: auto;
+
+    padding: 1em 0 0 0;
+
+    /*position: relative;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*header****************************************************************************************/
+
+header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 2em;
+}
+
+#logo {
+    width: 3em;
+    height: auto;
+
+    padding: 1em;
+}
+
+#titre_page {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+
+    font-size: 3em;
+    font-weight: bold;
+
+    margin-top: 0.6em;;
+}
+
+
+/*navigation*/
+
+nav ul {
+    background-color: #DF8E91;
+
+    border-radius: 1em;
+
+    padding: 0.2em;
+    padding-top: 0.6em;
+
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    font-size: 1.4em;
+
+    margin: 0 1em;
+}
+
+nav a {
+    font-family: 'aristotelica_small_capsRg', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+    color: white;
+}
+
+nav a:hover, footer a:hover {
+    color: #A34B56;
+}
+
+/*corps*****************************************************************************************/
+
+header, footer, p , #navig{
+    letter-spacing: 0.1em;
+    line-height: 1.4em;
+}
+
+header, footer {
+    font-family: 'odin_roundedbold', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: 'ModecoTrial-Regular', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+
+    margin: 1.4em;
+
+    color: #DF8E91;
+
+    font-size: medium;
+    font-weight: normal;
+}
+
+
+/*presentation*/
+
+section {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 4em;
+
+    padding: 2em;
+}
+
+article {
+    text-align: left;
+}
+
+#portrait {
+    width: 30%;
+    height: min-content;
+
+    padding: 0 2em;
+}
+
+
+/*footer****************************************************************************************/
+
+footer {
+    padding-top: 6em;
+
+    display: flex;
+    flex-direction: column;
+    
+    color: #DF8E91;
+}
+
+#separateur_bas {
+    background-color: #DF8E91;
+
+    width: 100%;
+    height: 1.8em;
+}
+
+#bloc_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.4em 2em 1em 4em;
+}
+
+#titre_page_bas {
+    flex: 1.6;
+}
+
+#plan_site {
+    flex: 2;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+}
+
+#copyright {
+    flex: 2;
+}
+
+#liens_externes {
+    flex: 1;
+}
+
+footer h1 {
+    font-size: 2em;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    font-size: 1em;
+}
+
+footer a {
+    color: #DF8E91;
+}
+
+footer p {
+    font-size: 0.8em;
+    font-variant: small-caps;
+
+    margin: 0.4em auto;
+}
+
+footer p:last-of-type {
+    font-size: 1em;
+    font-variant: normal;
+
+    margin-top: 1em;
+}
+
+.icone {
+    width: 4em;
+    height: auto;
+}
+
+/***********************************************************************************************/
